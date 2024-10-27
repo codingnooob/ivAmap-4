@@ -101,7 +101,7 @@ fig.update_layout(
 
 @app.callback(
     Output('output-map', 'children'),
-    Input('upload-data', 'contents')
+    Input('output-map', 'children')  # Dummy input to trigger the callback
 )
 def update_output(_):
 
