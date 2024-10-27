@@ -117,8 +117,6 @@ def update_output(_):
             style={'width': '100%', 'height': '80vh'}
         )
 
-    return html.Div(['Please upload a CSV file to display the map.'])
-
 # Run the app
 if __name__ == '__main__':
     app.run_server(debug=True)
